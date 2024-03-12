@@ -1,0 +1,70 @@
+.nav-link {
+    font-family: 'Quicksand', sans-serif;
+    font-size: 1rem;
+    font-weight: 400;
+    color: black;
+}
+.nav-link:hover{
+    background-color: #010101;
+    color: white;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    transform: scale(1.05); 
+    z-index: 10;
+
+}
+.lead{
+    font-weight: 250;
+    font-size: 1.5vw;
+}
+.navbar-nav{
+    gap: 2rem;
+}
+.view h1{
+    font-family: 'Belleza';
+    font-weight: 400;
+    font-size: 6vw;
+    color:#010101;
+    
+}
+.view h3{
+    font-weight: 500;
+    font-size: 2vw;
+    color:#010101;
+    font-style: bold;
+}
+
+.navbar .d-flex img:hover{
+    transform: scale(1.5); 
+    z-index: 10;
+}
+.view .btn{
+    font-family:'Aeonik',sans-serif;
+    font-weight: 500;
+    background-color: #010101;
+    color: white;
+    font-size: 0.8rem;
+}
+.toggler-icon::before {
+    content: "";
+    display: block;
+    width: 20px;
+    height: 2px;
+    background-color: #000;
+    margin-bottom: 4px;
+}
+
+.toggler-icon::after {
+    content: "";
+    display: block;
+    width: 20px;
+    height: 2px;
+    background-color: #000;
+}
+.lora{
+    font-family: 'lora';
+}
+.lora-1{
+    font-family: 'lora';
+    font-size: 2vw;
+    opacity: .5;
+}
